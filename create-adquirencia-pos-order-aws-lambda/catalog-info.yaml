@@ -1,0 +1,18 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: create-adquirencia-pos-orders
+  description: Create adquirencia POS orders
+  annotations:
+    backstage.io/techdocs-ref: dir:../../
+    sonarqube.org/project-key: Bancar_uala-adquirencia-orders
+  tags:
+    - go
+    - adquirencia
+    - orders
+    - pos
+
+spec:
+  type: service
+  lifecycle: production
+  owner: adquirencia
